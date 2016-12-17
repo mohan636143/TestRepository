@@ -7,12 +7,22 @@
     <Grid.RowDefinitions>
       <RowDefinition Height="*"></RowDefinition>
       <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
     </Grid.RowDefinitions>
   
     <Label Text="New App Added" Grid.Row="0"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
-    <Label Text="Edit Added" Grid.Row="1"
+    <Frame BackgroundColor="Yellow" Opacity="0.2" Grid.Row="1"></Frame>
+    <Grid Grid.Row="1" Margin="5" Padding="5">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Label Text="First User Edit Dismissed"></Label>
+      <Label Text="New user is perumalla.mohan24 " Grid.Row="1"></Label>
+    </Grid>
+    <Label Text="Second User Added perumalla.mohan24" Grid.Row="2"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
