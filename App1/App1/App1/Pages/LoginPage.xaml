@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pages.LoginPage">
+  <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+    <Grid.RowDefinitions RowSpacing="0">
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="50*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Image Grid.Row="0" 
+           VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"
+           Source="Bike_blackNwhite.jpg" ></Image>
+    <Grid Grid.Row="1" BackgroundColor="White" Margin="5" Padding="25,5">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Frame Grid.Row="0" Padding="0"
+             BackgroundColor="Transparent"  HasShadow="False">
+      <Entry Placeholder="User ID" Keyboard="Text"></Entry>
+      </Frame>
+      <Frame Grid.Row="1" Padding="0"
+             BackgroundColor="Transparent"  HasShadow="False">
+      <Entry Placeholder="Password" IsPassword="True" Keyboard="Text"></Entry>
+      </Frame>
+        <Button Grid.Row="2" Text="Login" BackgroundColor="Black" TextColor="White"
+                FontSize="16"></Button>
+      <Image Source="bike_load.png" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="Center" 
+             HeightRequest="30" WidthRequest="100"></Image>
+    </Grid>
+  </Grid>
+
+</ContentPage>
