@@ -12,7 +12,7 @@
     <Label Text="New App Added" Grid.Row="0"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
-    <Label Text="Edit Added" Grid.Row="1"
+    <Label Text="Label Edited" Grid.Row="1"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
