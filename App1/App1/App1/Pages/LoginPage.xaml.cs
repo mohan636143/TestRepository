@@ -13,6 +13,9 @@ namespace App1.Pages
         public LoginPage()
         {
             InitializeComponent();
+            Frame f = new Frame();
+            Button b = new Button();
+            
         }
     }
 }
